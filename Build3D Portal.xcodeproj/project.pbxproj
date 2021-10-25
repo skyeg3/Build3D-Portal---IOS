@@ -3,16 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31AEBB327151E6C006A3AD7 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31AEBB227151E6C006A3AD7 /* BrowseView.swift */; };
+		F31AEBB52716A4EC006A3AD7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31AEBB42716A4EC006A3AD7 /* Model.swift */; };
 		F323A4D72713EB2000E3D12E /* Build3D_PortalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323A4D62713EB2000E3D12E /* Build3D_PortalApp.swift */; };
 		F323A4D92713EB2000E3D12E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323A4D82713EB2000E3D12E /* ContentView.swift */; };
 		F323A4DB2713EB2200E3D12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F323A4DA2713EB2200E3D12E /* Assets.xcassets */; };
 		F323A4DE2713EB2200E3D12E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F323A4DD2713EB2200E3D12E /* Preview Assets.xcassets */; };
 		F323A4E92713EB2200E3D12E /* Build3D_PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323A4E82713EB2200E3D12E /* Build3D_PortalTests.swift */; };
 		F323A4F42713EB2200E3D12E /* Build3D_PortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323A4F32713EB2200E3D12E /* Build3D_PortalUITests.swift */; };
+		F323A50527149DC900E3D12E /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323A50427149DC900E3D12E /* ControlView.swift */; };
+		F35AC5292718152F0074309C /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35AC5232718152D0074309C /* wateringcan.usdz */; };
+		F35AC52A2718152F0074309C /* PegasusTrail.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35AC5242718152D0074309C /* PegasusTrail.usdz */; };
+		F35AC52B2718152F0074309C /* solar_panels_stylized.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35AC5252718152D0074309C /* solar_panels_stylized.usdz */; };
+		F35AC52C2718152F0074309C /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35AC5262718152E0074309C /* toy_robot_vintage.usdz */; };
+		F35AC52D2718152F0074309C /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35AC5272718152E0074309C /* tv_retro.usdz */; };
+		F35AC52E2718152F0074309C /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35AC5282718152F0074309C /* toy_biplane.usdz */; };
+		F3824598271D466D00E75B69 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3824597271D466D00E75B69 /* PlacementSettings.swift */; };
+		F382459A271D4E1B00E75B69 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3824599271D4E1B00E75B69 /* PlacementView.swift */; };
+		F382459D271DD64B00E75B69 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = F382459C271DD64B00E75B69 /* FocusEntity */; };
+		F382459F271DD69100E75B69 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382459E271DD69100E75B69 /* CustomARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31AEBB227151E6C006A3AD7 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		F31AEBB42716A4EC006A3AD7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F323A4D32713EB2000E3D12E /* Build3D Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build3D Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F323A4D62713EB2000E3D12E /* Build3D_PortalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build3D_PortalApp.swift; sourceTree = "<group>"; };
 		F323A4D82713EB2000E3D12E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,16 @@
 		F323A4EF2713EB2200E3D12E /* Build3D PortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Build3D PortalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F323A4F32713EB2200E3D12E /* Build3D_PortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build3D_PortalUITests.swift; sourceTree = "<group>"; };
 		F323A4F52713EB2200E3D12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F323A50427149DC900E3D12E /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		F35AC5232718152D0074309C /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		F35AC5242718152D0074309C /* PegasusTrail.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = PegasusTrail.usdz; sourceTree = "<group>"; };
+		F35AC5252718152D0074309C /* solar_panels_stylized.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = solar_panels_stylized.usdz; sourceTree = "<group>"; };
+		F35AC5262718152E0074309C /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		F35AC5272718152E0074309C /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		F35AC5282718152F0074309C /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		F3824597271D466D00E75B69 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		F3824599271D4E1B00E75B69 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		F382459E271DD69100E75B69 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F382459D271DD64B00E75B69 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +123,15 @@
 			children = (
 				F323A4D62713EB2000E3D12E /* Build3D_PortalApp.swift */,
 				F323A4D82713EB2000E3D12E /* ContentView.swift */,
+				F382459E271DD69100E75B69 /* CustomARView.swift */,
+				F323A50427149DC900E3D12E /* ControlView.swift */,
+				F31AEBB227151E6C006A3AD7 /* BrowseView.swift */,
+				F3824599271D4E1B00E75B69 /* PlacementView.swift */,
+				F3824597271D466D00E75B69 /* PlacementSettings.swift */,
+				F31AEBB42716A4EC006A3AD7 /* Model.swift */,
 				F323A4DA2713EB2200E3D12E /* Assets.xcassets */,
 				F323A4DF2713EB2200E3D12E /* Info.plist */,
+				F323A5012713FEA100E3D12E /* 3D Assets */,
 				F323A4DC2713EB2200E3D12E /* Preview Content */,
 			);
 			path = "Build3D Portal";
@@ -130,6 +163,19 @@
 			path = "Build3D PortalUITests";
 			sourceTree = "<group>";
 		};
+		F323A5012713FEA100E3D12E /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F35AC5242718152D0074309C /* PegasusTrail.usdz */,
+				F35AC5252718152D0074309C /* solar_panels_stylized.usdz */,
+				F35AC5282718152F0074309C /* toy_biplane.usdz */,
+				F35AC5262718152E0074309C /* toy_robot_vintage.usdz */,
+				F35AC5272718152E0074309C /* tv_retro.usdz */,
+				F35AC5232718152D0074309C /* wateringcan.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +192,9 @@
 			dependencies = (
 			);
 			name = "Build3D Portal";
+			packageProductDependencies = (
+				F382459C271DD64B00E75B69 /* FocusEntity */,
+			);
 			productName = "Build3D Portal";
 			productReference = F323A4D32713EB2000E3D12E /* Build3D Portal.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +266,9 @@
 				Base,
 			);
 			mainGroup = F323A4CA2713EB2000E3D12E;
+			packageReferences = (
+				F382459B271DD64B00E75B69 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = F323A4D42713EB2000E3D12E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +285,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35AC52E2718152F0074309C /* toy_biplane.usdz in Resources */,
 				F323A4DE2713EB2200E3D12E /* Preview Assets.xcassets in Resources */,
 				F323A4DB2713EB2200E3D12E /* Assets.xcassets in Resources */,
+				F35AC52B2718152F0074309C /* solar_panels_stylized.usdz in Resources */,
+				F35AC52A2718152F0074309C /* PegasusTrail.usdz in Resources */,
+				F35AC5292718152F0074309C /* wateringcan.usdz in Resources */,
+				F35AC52D2718152F0074309C /* tv_retro.usdz in Resources */,
+				F35AC52C2718152F0074309C /* toy_robot_vintage.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3824598271D466D00E75B69 /* PlacementSettings.swift in Sources */,
+				F31AEBB52716A4EC006A3AD7 /* Model.swift in Sources */,
+				F31AEBB327151E6C006A3AD7 /* BrowseView.swift in Sources */,
 				F323A4D92713EB2000E3D12E /* ContentView.swift in Sources */,
+				F323A50527149DC900E3D12E /* ControlView.swift in Sources */,
 				F323A4D72713EB2000E3D12E /* Build3D_PortalApp.swift in Sources */,
+				F382459F271DD69100E75B69 /* CustomARView.swift in Sources */,
+				F382459A271D4E1B00E75B69 /* PlacementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F382459B271DD64B00E75B69 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F382459C271DD64B00E75B69 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F382459B271DD64B00E75B69 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F323A4CB2713EB2000E3D12E /* Project object */;
 }
